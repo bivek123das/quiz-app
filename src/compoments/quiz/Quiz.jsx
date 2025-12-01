@@ -139,7 +139,7 @@ export default function Quiz() {
           {categories.slice(10, 15).map((cat) => (
             <button
               key={cat.id}
-              className="p-4 bg-white/20 rounded-xl text-white font-semibold hover:bg-white/30 transition"
+              className="p-4 bg-white/20 cursor-pointer rounded-xl text-white font-semibold hover:bg-white/30 transition"
               onClick={() => categorySelect(cat)}
             >
               {cat.name}
